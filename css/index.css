@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.container {
+  width: 310px;
+  margin: 0 auto;
+  background: #f7f7f7; }
+
+.squares {
+  font-size: 0;
+  padding: 5px; }
+
+.grid {
+  display: inline-block;
+  width: 90px;
+  height: 90px;
+  margin: 5px;
+  border-radius: 5px;
+  background: #FDA529;
+  -webkit-transition: all .6s;
+  transition: all .6s; }
+
+.btns {
+  padding-bottom: 10px; }
+
+.click-btn {
+  display: block;
+  width: 100%;
+  line-height: 36px;
+  background: #fff;
+  border: 1px solid #FDA529;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all .6s; }
+  .click-btn:not(:last-child) {
+    margin-bottom: 10px; }
+  .click-btn:focus {
+    outline: none; }
+  .click-btn.active {
+    background: #EC9825; }
+
+/*# sourceMappingURL=index.css.map */
